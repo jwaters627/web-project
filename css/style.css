@@ -1,0 +1,364 @@
+body {
+	font-family: "roboto", sans-serif;
+	font-weight: bold;
+	margin: 0;
+	font-size: 12px;
+	color: #495b60;
+}
+
+/* Layout */
+
+.panel {
+	min-height: 100vh;
+}
+
+.inner-wrapper {
+	max-width: 600px;
+	width: 80%;
+	margin: 0 auto;
+	padding: 65px 0;
+}
+
+.three-even-columns {
+	width: 100%;
+	content: '';
+	clear: both;
+	display: table;
+	margin-top: -30px;
+}
+
+
+.three-column-1,
+.three-column-2,
+.three-column-3 {
+	width: 33%;
+	float: left;
+	padding: 40px 0;
+	border-bottom: 1px solid #dadedf;
+	border-top: 1px solid #dadedf;
+}
+
+.three-column-1,
+.three-column-2 {
+	border-right: 1px solid #dadedf;
+}
+
+
+.two-column-1,
+.two-column-2 {
+	width: 48%;
+	float: left;
+	color: black;
+	margin-left: 20px;
+
+}
+
+.noBorderTop {
+	border-top: none;
+}
+
+/* Text Styles */
+
+h1 {
+	font-size: 5em;
+}
+
+h2 {
+	font-size: 4em;
+}
+
+h3 {
+	font-size: 3em;
+}
+
+h4 {
+	font-size: 2.5em;
+}
+
+h5 {
+	font-size: 2em;
+}
+
+h6 {
+	font-size: 1.5em;
+}
+
+p {
+	font-size: 1.25em;
+	color: #495b60;
+}
+
+/* Buttons */
+
+.button {
+	color: black;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+/* Header Styles */
+
+header {
+	background-color: white;
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 25px 0;
+	clear: both;
+	display: table;
+	width: 100%;
+	content: '';
+}
+
+header > #headerLogo {
+	width: 50%;
+	float: left;
+}
+
+header > #headerLogo > img {
+	max-width: 200px;
+}
+
+.middleButton{
+	border-right: 1px solid;
+	padding-right: 7px;
+	border-left: 1px solid;
+	padding-left: 7px;
+}
+
+.rightButton{
+	border-right: 1px solid;
+	padding-right: 7px;
+}
+/* Navigation */
+
+header > nav {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+header > nav ul {
+	list-style-type: none;
+}
+
+header > nav ul li {
+	display: inline-block;
+}
+
+header > nav ul li a {
+	padding: 10px;
+	color: rgb(66, 137, 157);
+	text-decoration: none;
+	font-size: 20px;
+}
+
+header > nav ul li a:hover {
+	color: black;
+}
+
+/* Hero Section */
+
+#hero {
+  background: 
+    linear-gradient(
+      rgba(36,65,75,0.58), 
+      rgba(36,65,75,0.58)
+    ),
+    url('http://www.expofacto.co/wp-content/uploads/2016/01/exterior-design-great-horizontal-hardie-plank-siding-in-silver-within-house-siding-design-ideas-renovation.jpg');
+	background-size: 83% 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: -140px;
+	text-align: center;
+	color: white;
+}
+
+#hero > .inner-wrapper {
+	max-width: 900px;	
+}
+
+#hero > .inner-wrapper h1 {
+	padding-top: 30px;
+}
+
+#hero h2 {
+	font-weight: 300;
+}
+
+
+#hero .heroPercentage {
+	display: inline-block;
+	border: 5px solid white;
+	margin: 0 auto;
+	border-radius: 20%;
+	padding: 30px;
+}
+
+#hero .heroPercentage h3, 
+#hero .heroPercentage p {
+	margin: 0;
+}
+
+#hero .heroPercentage p{
+	color: white;
+}
+
+#hero .proofPoints p{
+	color:black;
+}
+
+#hero img {
+	width:220px;
+	height: 160px;
+	border:2px solid black;
+	margin-top: -20px;
+}
+
+
+
+/* Learn More Section */
+
+#learnMore {
+	text-align: center;
+	margin-top: 200px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#learnMore h3 {
+	color: rgb(66, 137, 157);
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 5px solid rgb(66, 137, 157);
+	border-top: 5px solid rgb(66, 137, 157);
+	max-width: 450px;
+	margin-left: 70px;
+	
+}
+
+#learnMore p {
+	margin-top: -20px;
+}
+
+
+/* Form Section */
+#formSection {
+	text-align: center;	
+	margin-top: -30px;
+	margin-bottom: -30px;
+}
+
+#formSection .large-inner-wrapper {
+	padding: 65px 0;
+	max-width: 1200px;
+}
+
+#formSection p {
+	color: black;
+}
+
+#formSection form {
+	padding: 20px;
+	background-color: rgba(200,200,200,1);
+	max-width: 300px;
+	margin: 50 150;
+	text-align: right;
+	border: 3px solid black;
+	color: black;
+}
+
+
+#formSection form > section {
+	padding: 10px;
+}
+
+#formSection form h4,
+#formSection form p {
+	text-align: center;
+	margin-bottom: 0.3em;
+}
+
+#formSection form h4 {
+	margin: 0.3em 0;
+}
+
+input[type="submit"]{ padding-top: 3px; padding-bottom: 3px; font-size: 14; font-weight: bold; background-color: white; box-shadow: 5px 5px 5px;}
+input[type="submit"]:hover {background-color: rgb(66, 137, 157); color: white;}
+
+#formSection form p {
+	margin-bottom: 25px;
+}
+
+#hero .proofPoints .two-column-1 {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+#hero .proofPoints .two-column-2 {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+#hero .proofPoints {
+	width: 78%;
+	margin-left: 70px;
+	margin-top: -20px;
+}
+
+
+
+/* About Us Section */
+
+#aboutUs {
+	text-align: center;
+}
+
+#aboutUs h3 {
+	color: rgb(66, 137, 157);
+	font-style: italic;
+	padding-bottom: 20px;
+	border-bottom: 5px solid rgb(66, 137, 157);
+	max-width: 450px;
+	margin: 0 auto 50px;
+}
+
+/* Contact Us Page */
+
+#contactUs form input,
+#contactUs form textarea {
+	width: 100%;
+}
+
+#contactUs form label {
+	display: block;
+	margin-bottom: 0.2em;
+}
+
+#contactUs form > section {
+	padding: 10px 0;
+}
+
+#contactUs h2 {
+	margin-top: 0;
+}
+
+/* Footer */
+
+footer {
+	max-width: 1000px;
+	font-family: courier;
+	width: 90%;
+	margin: 0 auto;
+	padding: 65px 0;
+	border-top: 1px solid #495b60;
+}
+
+footer > #footerLogo {
+	max-width: 200px;
+}
+
+footer > #footerLogo > img {
+	width: 100%;
+}

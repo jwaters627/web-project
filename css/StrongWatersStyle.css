@@ -1,0 +1,266 @@
+body {
+	font-family: "roboto", sans-serif;
+	font-weight: bold;
+	margin: 0;
+	font-size: 12px;
+	color: #495b60;
+}
+
+@font-face {
+	font-family: acrossTheRoad;
+	font-style: normal;
+	font-weight: normal;
+	src: URL("../font/Across_the_road.ttf");
+}
+/* Layout */
+
+.panel {
+	min-height: 100vh;
+}
+
+.inner-wrapper {
+	max-width: 1000px;
+	width: 80%;
+	margin: 0 auto;
+	padding: 65px 0;
+}
+
+.three-even-columns,
+.two-even-columns {
+	margin: auto;
+	width: 75%;
+	content: '';
+	clear: both;
+	padding-left: 0px;
+	
+}
+
+.three-column-1,
+.three-column-2,
+.three-column-3 {
+	width: 31%;
+	float: left;
+	padding-top: 3px;
+	margin-top: 62px;
+	background-color: gray;
+	border:2px solid black;
+	border-radius: 15px;
+	box-shadow: 2px 2px 2px black;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+
+.three-column-1 > a > img {
+	opacity: .4;
+	width:60%; 
+}
+
+.three-column-1 > a > img:hover{
+	opacity: 1;
+}
+
+.three-column-1 > a > p {
+	color: white;
+	margin-top: -32px;
+}
+
+.three-column-2 > a > img {
+	opacity: .4;
+width:60%;
+}
+
+.three-column-2 > a > img:hover{
+	opacity: 1;
+}
+
+.three-column-2 > a > p {
+ color: white;
+ margin-top: -32px;
+}
+
+.three-column-3 > a > img {
+	opacity: .4;
+	width: 60%;
+
+}
+
+.three-column-3 > a > img:hover{
+	opacity: 1;
+}
+
+.three-column-3 > a > p {
+	color: white;
+	margin-top: -32px;
+}
+
+
+.noBorderTop {
+	border-top: none;
+}
+
+/* Text Styles */
+
+h1 {
+	font-size: 5em;
+}
+
+h2 {
+	font-size: 4em;
+}
+
+h3 {
+	font-size: 3em;
+}
+
+h4 {
+	font-size: 2.5em;
+}
+
+h5 {
+	font-size: 2em;
+}
+
+h6 {
+	font-size: 1.5em;
+}
+
+p {
+	font-size: 1.25em;
+	color: #495b60;
+}
+
+/* Buttons */
+
+.button {
+	color: black;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+/* Header Styles */
+
+header {
+	background-color: rgb(30, 150, 190);
+	width: 100%;
+	display: table;
+	content: '';
+	margin-top: -10px;
+	margin-bottom: 50px;
+}
+
+header > #headerLogo {
+	width: 40%;
+	float: left;
+	margin-left: 160px;
+	margin-top: 40px;
+}
+
+header >#headerLogo > h2 {
+	font-family: arial;
+	font-weight: bold;
+	text-shadow: 2px 2px black ;
+	margin-top: -15px;
+	color: white;
+}
+
+header > #headerLogo > h4 {
+font-family: acrossTheRoad;
+color: white;
+text-shadow: 2px 2px black ;
+padding-left: 110px;
+margin-bottom: -80px;
+margin-top: -50px;
+
+}
+
+
+.leftButton{
+	border-right: 1px solid;
+	padding-right: 7px;
+	border-left: 1px solid;
+	padding-left: 7px
+}
+
+
+/* Navigation */
+
+header > nav {
+	width: 50%;
+	float: right;
+	text-align: right;
+	padding-right: 180px;
+}
+
+header > nav ul {
+	list-style-type: none;
+}
+
+header > nav ul li {
+	display: inline-block;
+	margin-bottom: 25px;
+}
+
+header > nav ul li a {
+	padding: 10px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: acrossTheRoad;
+	font-weight: bold;
+
+}
+
+header > nav ul li a:hover {
+	color: black;
+}
+
+/* Hero Section */
+
+#hero {
+  background: 
+    linear-gradient(
+      rgba(36,65,75,0.68), 
+      rgba(72,72,72,0.38)
+    ),
+    url('http://i2.cdn.turner.com/cnnnext/dam/assets/130503105537-usa-beer-bend-horizontal-large-gallery.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 750px;
+	text-align: center;
+	font-style: oblique;
+	text-shadow: 2px 2px black ;
+	margin-top: -80px;
+}
+
+#hero > .inner-wrapper > h1{
+	max-width: 3500px;	
+	margin-top: -10px;
+	font-weight: bold;
+	color: white;
+}
+
+
+
+/* Footer */
+
+footer {
+	font-family: cursive;
+	max-width: 1300px;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -70px;
+	padding: 65px 0;
+
+}
+
+footer > #footerLogo {
+	max-width: 200px;
+}
+
+footer > #footerLogo > img {
+	width: 100%;
+}
